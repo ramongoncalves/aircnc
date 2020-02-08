@@ -25,6 +25,6 @@ module.exports = {
       techs: techs.split(",").map(tech => tech.trim()),
       price
     });
-    res.json(spot);
+    return res.json(spot);
   }
 };
